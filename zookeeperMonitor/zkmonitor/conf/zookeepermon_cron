@@ -1,0 +1,2 @@
+#zookeepermonitor cron 
+* * * * * root (cd /vdb/zkmonitor/bin/ && python zookeeper.py > /dev/null)
